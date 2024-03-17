@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    background-color: #D9D9D9;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.navbar-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-center h1 {
+    margin: 0;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li:last-child {
+    margin-right: 0;
+}
+
+.navbar-links a {
+    align-content: center;
+    color: #000; /* Warna teks */
+    margin-right: 10px;
+}
+
+.navbar-links li a:hover {
+    color: #333; /* Warna teks saat dihover */
+}
+
+.pilih {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 50px;
+}
+
+.conten {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.conten button{
+    outline: none;
+    border: none;
+    size: 20px;
+    color: white;
+}
+
+.kuning{
+    background-color: #FFF4DC;
+    margin-bottom: 30px;
+}
+.kuning button{
+    background-color: #E29A00;
+}
+
+.pink{
+    background-color:  #FFCED7;
+}
+.pink button{
+    background-color:  #FF5573;
+}
+
+.box1 {
+    width: 490px;
+    height: 180px;
+    background-color: #D5FFDD;
+    border-radius: 15px;
+}
+
+.box1 img{
+    width: 230px;
+    height: 230px;
+    position: relative;      
+    top: -49px;
+}
+
+.box1 button{
+    background-color: #399349;
+    width: 240px;
+    height: 37px;
+    border-radius: 15px;
+    position: relative;      
+    top: -80px;
+}
+
+.box1 h1{
+    position: relative;
+    top: -250px;
+    right: -240px;
+}
+
+.box1 p{
+    position: relative;
+    top: -280px;
+    right: -240px;
+}
+
+.box2{
+    width: 235px;
+    height: 180px;
+    border-radius: 15px;
+    margin-top: 17px;
+}
+
+.box3{
+    width: 235px;
+    height: 392px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 17px;
+    background-color:  #E2F2FF;
+}
+
+.box3 img{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    top: 30px;
+    right: -35px;
+}
+
+.box3 button{
+    background-color:  #3279AF;
+    width: 174px;
+    height: 37px;
+    border-radius: 15px;
+    position: relative;
+    top: 160px;
+    right: -30px;
+}
+
+.box3 h2{
+    position: relative;
+    right: -50px;
+    top: -30px;
+}
+
+.box3 p{
+    position: relative;
+    right: 0px;
+    top: -43px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.cabang1{
+    display: flex;
+}
+
+.cabang2 img{
+    height: 174px;
+    height: 170px;
+    position: relative;
+    top: 10px;
+    right: -30px;
+}
+
+.cabang2 button{
+    width: 174px;
+    height: 37px;
+    border-radius: 15px;
+    position: relative;
+    top: -40px;
+    right: -30px;
+}
+
+.cabang3 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.cabang3 img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top:10px;
+    right: -20px;
+}
+
+.cabang3 button{
+    width: 149px;
+    height: 22px;
+    border-radius: 10px;
+    position: relative;
+    background-color:   #D8D6C1;
+    right: -25px;
+
+}
+
+.cabang3 h3{
+    position: relative;
+    top: -80px;
+    right: -100px;
+}
+
+.cabang4 {
+    background-color: #F2F2F2;
+    width: 500px;
+    height: 180px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.cabang4 img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 30px;
+    right: -20px;
+}
+
+.cabang4 button{
+    width: 100px;
+    height: 55px;
+    background-color:  #D8D6C1;
+    border-radius: 10px;
+    position: relative;
+    top: 8px;
+    right: -10px;
+}
+
+.cabang4 h3{
+    position: relative;
+    top: -110px;
+    right: -135px;
+}
+
+.box4{
+    outline: 1px #D8D6C1 solid;
+    width: 423px;
+    height: 96px;
+    border-radius: 15px;
+    background-color: white;
+}
+.box5{
+    width: 500px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width:1020px){
+    .cabang3{
+        width: 500px;
+        height: 392px;
+        background-color: #F2F2F2;
+    }
+}
+@media screen and (max-width:1020px){
+    .navbar{
+        position: fixed;
+        bottom: 0;
+    }
+    .navbar-links a{
+        font-size: 14px;
+    }
+    .conten{
+        flex-direction: column;
+    }
+    .box1{
+        margin-left: 0px;
+        width: 289px;
+        height: 299px;
+    }
+    .box1 img{
+        right: -30px;
+    }
+    .box1 button{
+        width: 212px;
+        height: 46px;
+        right: -40px;
+    }
+    .box1 h1{
+        top: -90px;
+        right: -80px;
+    } 
+    .box1 p{
+        top: -115px;
+        right: -67px;
+        width: 289px;
+    }
+    .box2{
+        margin-left: 0px;
+        width: 289px;
+    }
+    .kuning{
+        margin-top: 40px;
+    }
+    .pink{
+        margin-top: 40px;
+    }
+    .cabang2 img{
+        right: -60px;
+    }
+    .cabang2 button{
+        right: -60px;
+    }
+    .box3{
+        margin-left: 0px;
+        margin-top: 80px;
+        width: 289px;
+        height: 314px;
+    }
+    .box3 img{
+        right: -30px;
+        top: -35px;
+        width: 230px;
+        height: 230px;
+    }
+    .box3 button{
+        width: 213px;
+        height: 46px;   
+        top: -70px;
+        right: -40px;
+    }
+    .box3 h2{
+        top: -89px;
+        right: -80px;
+    }
+    .box3 p{
+        top: -108px;
+        right: -3px;
+    }
+    .kanan{
+        margin-top: 40px;
+    }
+    .box4{
+        width: 289px;
+        height: 221px;
+    }
+    .cabang1{
+        flex-direction: column;
+    }
+    .cabang4{
+        width: 0;
+    }
+    .cabang3{
+        background-color: none;
+        margin-left: 0;
+        gap: 40px;
+    }
+    .cabang3 img{
+        width: 213px;
+        height: 213px;
+        position: relative;
+        right: -40px;
+    }
+    .cabang3 h3{
+        display: none;
+    }
+    .cabang3 button{
+        width: 213px;
+        height: 46px;
+        position: relative;
+        top: -50px;
+        right: -40px;
+    }
+    .box4{
+        background-color: #E9E8E2;
+    }
+    .cabang4{
+        background-color: none;
+        flex-direction: column;
+        position: relative;
+        right: 20px;
+        top: 150px;
+        margin-bottom: 410px;
+    }
+    .cabang4 h3{
+        display: none;
+    }
+    .cabang4 button{
+        width: 213px;
+        height: 46px;
+        top: -55px;
+        right: -40px;
+    }
+    .cabang4 img{
+        width: 213px;
+        height:  213px;
+        top: 10px;
+        right: -40px;
+    }
+
+    .pembalap{
+        background-color:   #FFDBC5;
+        width: 289px;
+        height: 221px;
+        bottom: 100px;
+    }
+    .pembalap button{
+        background-color:  #E36415;
+    }
+    .astronout{
+        background-color:    #8FC5ED;
+        width: 289px;
+        height: 221px;
+        position: relative;
+        top: 40px;
+    }
+    .astronout button{
+        background-color:  #275E87;
+    }
+}
